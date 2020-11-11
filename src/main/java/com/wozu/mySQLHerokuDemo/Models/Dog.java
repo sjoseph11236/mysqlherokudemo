@@ -17,6 +17,11 @@ public class Dog {
 
     public Dog(){};
 
+    public Dog(String message, String status) {
+        this.message = message;
+        this.status = status;
+    }
+
     public Long getId() {
         return id;
     }
