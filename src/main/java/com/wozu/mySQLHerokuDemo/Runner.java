@@ -16,11 +16,13 @@ public class Runner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Dog dog1 = new Dog("dummy message 1", "SUCCESS");
-        Dog dog2 = new Dog("dummy message 2", "SUCCESS");
+            Dog dog1 = new Dog("dummy message 1", "SUCCESS");
+            Dog dog2 = new Dog("dummy message 2", "SUCCESS");
 
-        dogServiceimpl.postDogFromDogApi(dog1);
-        dogServiceimpl.postDogFromDogApi(dog2);
+            dogServiceimpl.postDogFromDogApi(dog1);
+            dogServiceimpl.postDogFromDogApi(dog2);
+
+
 
     }
 }
